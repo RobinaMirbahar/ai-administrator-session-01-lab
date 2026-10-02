@@ -206,7 +206,7 @@ What is the weather forecast for Amman tomorrow, and what is the current JOD to 
 
 ## 📝 Course Deliverable (`M1-task-inventory`)
 
-> **Due:** Before Day 2 (Session 3)  
+> **Due:** Before Day 2 (Session 2)  
 > **Format:** Google Sheets or Excel spreadsheet saved as `M1-task-inventory` in your course folder.
 
 ### 1. Fill in Your 10 Workplace Tasks
