@@ -4,11 +4,21 @@
 [![Track](https://img.shields.io/badge/IEEE_CS_Region_8-AI_Caravan_2026-blue?style=for-the-badge&logo=ieee&logoColor=white)](https://aicaravan.org)
 [![Skill Level](https://img.shields.io/badge/Level-100%25_No--Code-success?style=for-the-badge)](https://aistudio.google.com/)
 [![Platform](https://img.shields.io/badge/Platform-Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
-[![Contributor](https://img.shields.io/badge/Contributor-@abedbanna-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abedbanna)
-
-A hands-on, zero-code lab to explore model boundaries, system instructions, tools grounding, and the 10-task inventory deliverable using [Google AI Studio](https://aistudio.google.com/).
 
 ---
+
+### 👥 Repository Collaborators & Instructional Team
+
+| Collaborator | Role | Profile & Links |
+| :--- | :--- | :--- |
+| **Dr. Abedal-Kareem Al-Banna** | Lead Contributor & Author | [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna) [![Profile](https://img.shields.io/badge/Profile-Personal_Page-e11d48?style=flat-square&logo=googlechrome&logoColor=white)](https://albanna-tutorials.com/profile.html) |
+| **Prof. Mousa AL-Akhras** | Lead Instructor | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mousa-al-akhras-56645316/) [![IEEE Jordan](https://img.shields.io/badge/IEEE-Jordan_Section-00629B?style=flat-square&logo=ieee&logoColor=white)](https://jordan.ieee.org/) |
+| **Robina Mirbahar** | Instructor & GDE | [![GitHub](https://img.shields.io/badge/GitHub-@RobinaMirbahar-181717?style=flat-square&logo=github)](https://github.com/RobinaMirbahar) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar) |
+| **Mohammed Abdelmajeed** | Lead Instructor | *AI & Automation Specialist* |
+
+---
+
+A hands-on, zero-code lab to explore model boundaries, system instructions, tools grounding, and the 10-task inventory deliverable using [Google AI Studio](https://aistudio.google.com/).
 
 ## 📌 Quick Navigation
 - [🎯 Lab Overview](#-lab-overview)
@@ -277,32 +287,30 @@ Then rank the top three tasks by time saved per week. Be brief.
 
 ---
 
-### Course Instructional Team
+---
 
-* **Prof. Mousa AL-Akhras** — Lead Instructor  
-  Chair, IEEE Jordan Section *(2025 IEEE MGA & R8 Outstanding Large Section)*  
-  Founder & Leader, AI in Medicine and Dentistry (AIMeD) Research Group · University of Jordan  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mousa-al-akhras-56645316/)
-  [![IEEE Jordan](https://img.shields.io/badge/IEEE-Jordan_Section-00629B?style=flat-square&logo=ieee&logoColor=white)](https://jordan.ieee.org/)
-  [![AIMeD](https://img.shields.io/badge/Research-AIMeD_Group-4B6B94?style=flat-square)](https://research.ju.edu.jo/research/groups/AIMeD)
+## 📄 License & Terms of Use
 
-* **Mohammed Abdelmajeed** — Lead Instructor  
-  AI & Automation Specialist  
+This repository and lab material are developed for the **IEEE Computer Society Region 8 AI Caravan 2026** under the **AI Administrator Track**.
 
-* **Robina Mirbahar** — Instructor  
-  Google Developer Expert (GDE) in Cloud & AI · Multi-Cloud Architect · Women Techmakers Ambassador  
-  📧 `mallah.robina@gmail.com`  
-  [![Email](https://img.shields.io/badge/Email-mallah.robina%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mallah.robina@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
-  [![GitHub](https://img.shields.io/badge/GitHub-@RobinaMirbahar-181717?style=flat-square&logo=github)](https://github.com/RobinaMirbahar)
-  [![DEV Community](https://img.shields.io/badge/DEV-Articles-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/robinamirbahar)
-
-* **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author  
-  Assistant Professor, Data Science & AI · University of Petra  
-  [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna)
+* **License:** Open for educational and non-commercial training under the [MIT License](LICENSE).
+* **Citation:** If referencing or using these materials for training, please credit the instructional team and author: **Dr. Abedal-Kareem Al-Banna & IEEE CS Region 8**.
 
 ---
 
-<p align="center">
-  <sub>IEEE Computer Society Region 8 AI Caravan 2026 · AI Administrator Track</sub>
-</p>
+## 🤝 Questions, Issues & Contributions
+
+* **Found a typo or have a question?** Feel free to open an [Issue](../../issues) or submit a [Pull Request](../../pulls).
+* **Next Session:** **Day 1 · Session 2: Prompting for Operators (Structured Outputs & Assistants)**.
+
+---
+
+<div align="center">
+  <p>
+    <strong>IEEE Computer Society Region 8 · AI Caravan 2026</strong><br>
+    <em>AI Administrator: Agentic Workflows & Automation</em>
+  </p>
+  <sub>Organized in partnership with the Faculty of Information Technology (University of Petra), the University of Jordan, and IEEE Jordan Section.</sub>
+  <br><br>
+  <sub>© 2026 Instructional Team & Contributors. All rights reserved.</sub>
+</div>
