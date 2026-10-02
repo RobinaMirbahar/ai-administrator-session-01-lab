@@ -29,11 +29,26 @@ A hands-on, zero-code lab to explore model boundaries, system instructions, tool
 
 This lab translates the theoretical foundations of **Day 1 · Session 1** into a fast, interactive experience using **Google AI Studio** ([aistudio.google.com](https://aistudio.google.com/)). No credit card, cloud project, or coding required.
 
-### What You Will Achieve:
-1. Experience why raw language models need **Tools** and **Memory**.
-2. Configure **System Instructions** to enforce strict administrative guardrails (e.g., $500 spending limits).
-3. Connect a live search tool via **Google Search Grounding** to observe the **Think → Act → Observe** loop.
-4. Use Gemini as your Operations Consultant to complete and submit your **`M1-task-inventory`**.
+### What an LLM Actually Does: Next-Word Prediction
+A language model does not "think" like a human—it predicts the most likely next word (token) one at a time based on probability.
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F495cca88-574b-4ace-b785-d6d6746e8f81_1500x504.png" alt="LLM Token Prediction" width="85%" />
+</p>
+
+### Automation vs. Agent
+* **Automation:** A fixed recipe where every tool and step is chosen in advance by the designer.
+* **Agent:** The model is given a goal and decides dynamically which tool to call, in what order, and when it is finished.
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36192526-b953-4f5a-a2fa-9bde40a827ef_1624x648.png" alt="Automation: Fixed Order of Tools" width="85%" />
+  <br><em>Figure 1: Automation follows a fixed sequence of steps.</em>
+</p>
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36870bf2-e0e5-42d7-bcdc-45b1a1ab7c15_1520x556.png" alt="Agent: Autonomous Tool Selection" width="85%" />
+  <br><em>Figure 2: An agent chooses tools autonomously at run time.</em>
+</p>
 
 ---
 
@@ -59,27 +74,37 @@ This lab translates the theoretical foundations of **Day 1 · Session 1** into a
 2. Sign in with your standard Google account.
 3. In the left menu, click **Create new prompt** → **Chat prompt**.
 
-<img width="2551" height="1260" alt="image" src="https://github.com/user-attachments/assets/6c74ddc8-2931-489c-a788-1832b9351133" />
-
+<img width="2551" height="1260" alt="Google AI Studio Chat Prompt Interface" src="https://github.com/user-attachments/assets/6c74ddc8-2931-489c-a788-1832b9351133" />
 
 ---
 
 ### Part 2: Test the Naked Model
 > *Alone, the model guesses at facts and numbers. Arithmetic and live data are not what next-word prediction is good at (Slide 10).*
 
+Without external memory or tools, the model suffers from two core limitations:
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969ff525-cab0-419e-9d83-3d85c1acfbe9_1716x544.png" alt="LLM Memory Limitation" width="85%" />
+  <br><em>Limitation 1: Alone, the model forgets previous sessions.</em>
+</p>
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff414a39-4acb-4762-b902-433e5c8aadf1_1592x464.png" alt="LLM Math Limitation" width="85%" />
+  <br><em>Limitation 2: Alone, the model guesses at facts and calculations.</em>
+</p>
+
 1. In the right configurations panel:
    * **Model:** Select `Gemini 2.5 Flash` (or `1.5 Flash`).
    * **Tools / Grounding:** Ensure Google Search is **OFF**.
 2. In the chat box at the bottom, copy and paste this prompt:
-<img width="2559" height="1172" alt="image" src="https://github.com/user-attachments/assets/4de3c047-f3de-4671-9899-e3a8128d6202" />
 
+<img width="2559" height="1172" alt="Prompt input in Google AI Studio" src="https://github.com/user-attachments/assets/4de3c047-f3de-4671-9899-e3a8128d6202" />
 
 ```text
 What is the exact exchange rate of the Jordanian Dinar (JOD) to Euro (EUR) today?
-
 ```
-<img width="2555" height="1261" alt="image" src="https://github.com/user-attachments/assets/7c893e66-3fa1-4aab-97b5-1809f32dfa3b" />
 
+<img width="2555" height="1261" alt="Model response without search tools" src="https://github.com/user-attachments/assets/7c893e66-3fa1-4aab-97b5-1809f32dfa3b" />
 
 3. Test raw arithmetic calculation:
 
@@ -87,7 +112,7 @@ What is the exact exchange rate of the Jordanian Dinar (JOD) to Euro (EUR) today
 Calculate this exact formula: (4928.45 * 18.25) / 1.075
 ```
 
-<img width="2546" height="1260" alt="image" src="https://github.com/user-attachments/assets/3e637bd4-bdc5-4794-8b58-fc5f71e81084" />
+<img width="2546" height="1260" alt="Model response attempting calculation" src="https://github.com/user-attachments/assets/3e637bd4-bdc5-4794-8b58-fc5f71e81084" />
 
 > **Observation:** Without tools, the model predicts the most probable next token rather than executing verified math or real-time queries.
 
@@ -96,13 +121,10 @@ Calculate this exact formula: (4928.45 * 18.25) / 1.075
 ### Part 3: Add Instructions & $500 Boundary
 > *Instructions are your main control surface: who the agent is, what it must do, and where a human must stay in the loop (Slide 34).*
 
-1. Locate the **System Instructions** box in the left panel or top of the canvas.
+1. Locate the **System Instructions** box in the top-right panel.
 2. Paste the following operational policy:
 
-
-<img width="2553" height="1269" alt="image" src="https://github.com/user-attachments/assets/3c60b4ec-b14a-48d0-a76e-5a18391276d2" />
-
-
+<img width="2553" height="1269" alt="Adding System Instructions" src="https://github.com/user-attachments/assets/3c60b4ec-b14a-48d0-a76e-5a18391276d2" />
 
 ```text
 You are an Operations Support Assistant for regional administration.
@@ -115,8 +137,7 @@ OPERATIONAL RULES:
    "ESCALATION REQUIRED: This transaction exceeds automated policy limits and must be reviewed by the Finance Director."
 ```
 
-<img width="2550" height="1257" alt="image" src="https://github.com/user-attachments/assets/f123358f-d78b-4d21-8644-9c0dba2055f2" />
-
+<img width="2550" height="1257" alt="System instructions configured" src="https://github.com/user-attachments/assets/f123358f-d78b-4d21-8644-9c0dba2055f2" />
 
 3. Clear the chat history, then test the boundary:
 
@@ -130,21 +151,32 @@ A client called regarding damaged shipment #4092. Please approve an immediate re
 ### Part 4: Connect Tools with 1-Click Grounding
 > *Tools give the model the ability to act and fetch external facts (Slide 25).*
 
-1. In the right panel under **Tools**, toggle **Google Search** to **ON**.
+When we connect an external tool, the model operates in a **ReAct loop** (Reason + Act): it writes a thought, invokes a tool, observes the results, and produces the grounded answer.
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca0a3091-bcf9-4da6-9a28-242d82f12acf_1844x652.png" alt="ReAct Framework" width="85%" />
+  <br><em>Figure 3: ReAct (Reason + Act) loop pattern.</em>
+</p>
+
+<p align="center">
+  <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77b17db6-da65-4afb-a775-e6a939f1ea58_1900x1168.png" alt="The ReAct Cycle" width="85%" />
+  <br><em>Figure 4: The full Think → Act → Observe cycle as executed by the platform.</em>
+</p>
+
+1. In the right panel under **Tools**, toggle **Grounding with Google Search** to **ON**.
 2. Clear the chat, then ask the live question again:
-   
-<img width="2546" height="1249" alt="image" src="https://github.com/user-attachments/assets/469928b1-2218-42c9-900c-d84a4e26dc38" />
 
-
+<img width="2546" height="1249" alt="Toggle Google Search Grounding" src="https://github.com/user-attachments/assets/469928b1-2218-42c9-900c-d84a4e26dc38" />
 
 ```text
 What is the weather forecast for Amman tomorrow, and what is the current JOD to EUR exchange rate?
 ```
+
+<img width="2555" height="1257" alt="Response with live grounded search citations" src="https://github.com/user-attachments/assets/2fe665c1-fb23-4675-961d-6b7ff9bdf77b" />
+
 > **Observation:** Notice the brief processing pause. The model plans, calls Google Search as a tool, observes the results, and displays **Sources & Citations** at the bottom.
 
 ---
-
-<img width="2555" height="1257" alt="image" src="https://github.com/user-attachments/assets/2fe665c1-fb23-4675-961d-6b7ff9bdf77b" />
 
 ### Part 5: Run the 4 Live Tests
 
@@ -233,13 +265,18 @@ Then rank the top three tasks by time saved per week. Be brief.
 ### Lead Contributor & Author
 * **Dr. Abedal-Kareem Al-Banna**  
   Assistant Professor, Data Science & AI · University of Petra  
-  GitHub: [@abedbanna](https://github.com/abedbanna)
+  [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna)
+
 
 ### Course Instructional Team
-* **Prof. Mousa AL-Akhras**  — Lead Instructor
-* **Mohammed Abdelmajeed** — Lead Instructor
-* **Robina Mirbahar**  — Instructor
-* **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author
+* **Prof. Mousa AL-Akhras**  — Lead Instructor  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)]([https://www.linkedin.com/in/](https://www.linkedin.com/in/mousa-al-akhras-56645316/))
+* **Mohammed Abdelmajeed** — Lead Instructor  
+
+* **Robina Mirbahar**  — Instructor  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
+* **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author  
+
 
 ---
 
