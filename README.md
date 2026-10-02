@@ -262,22 +262,47 @@ Then rank the top three tasks by time saved per week. Be brief.
 
 ## 👥 Contributors & Instructional Team
 
-### Lead Contributor & Author
+### Lead Contributor & Curriculum Author
 * **Dr. Abedal-Kareem Al-Banna**  
-  Assistant Professor, Data Science & AI · University of Petra  
+  Assistant Professor, Data Science & AI · Faculty of Information Technology, University of Petra  
+  📧 `abanna@uop.edu.jo` (Ext: 7310)  
+  [![Profile](https://img.shields.io/badge/Profile-Personal_Page-e11d48?style=flat-square&logo=googlechrome&logoColor=white)](https://albanna-tutorials.com/profile.html)
+  [![Email](https://img.shields.io/badge/Email-abanna%40uop.edu.jo-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abanna@uop.edu.jo)
   [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna)
-
-
-### Course Instructional Team
-* **Prof. Mousa AL-Akhras**  — Lead Instructor  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)]([https://www.linkedin.com/in/](https://www.linkedin.com/in/mousa-al-akhras-56645316/))
-* **Mohammed Abdelmajeed** — Lead Instructor  
-
-* **Robina Mirbahar**  — Instructor  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
-* **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author  
-
+  [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Citations-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=iT-DOPkAAAAJ&hl=en)
+  [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--8598--0948-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-8598-0948)
+  [![IEEE Xplore](https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37089441675)
+  [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/abedbanna)
+  [![CV](https://img.shields.io/badge/Curriculum_Vitae-PDF-555555?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://albanna-tutorials.com/cv/Dr-Abedal-Kareem-Al-Banna-CV.pdf)
 
 ---
 
-IEEE Computer Society Region 8 AI Caravan 2026 · AI Administrator Track
+### Course Instructional Team
+
+* **Prof. Mousa AL-Akhras** — Lead Instructor  
+  Chair, IEEE Jordan Section *(2025 IEEE MGA & R8 Outstanding Large Section)*  
+  Founder & Leader, AI in Medicine and Dentistry (AIMeD) Research Group · University of Jordan  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mousa-al-akhras-56645316/)
+  [![IEEE Jordan](https://img.shields.io/badge/IEEE-Jordan_Section-00629B?style=flat-square&logo=ieee&logoColor=white)](https://jordan.ieee.org/)
+  [![AIMeD](https://img.shields.io/badge/Research-AIMeD_Group-4B6B94?style=flat-square)](https://research.ju.edu.jo/research/groups/AIMeD)
+
+* **Mohammed Abdelmajeed** — Lead Instructor  
+  AI & Automation Specialist  
+
+* **Robina Mirbahar** — Instructor  
+  Google Developer Expert (GDE) in Cloud & AI · Multi-Cloud Architect · Women Techmakers Ambassador  
+  📧 `mallah.robina@gmail.com`  
+  [![Email](https://img.shields.io/badge/Email-mallah.robina%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mallah.robina@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
+  [![GitHub](https://img.shields.io/badge/GitHub-@RobinaMirbahar-181717?style=flat-square&logo=github)](https://github.com/RobinaMirbahar)
+  [![DEV Community](https://img.shields.io/badge/DEV-Articles-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/robinamirbahar)
+
+* **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author  
+  Assistant Professor, Data Science & AI · University of Petra  
+  [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna)
+
+---
+
+<p align="center">
+  <sub>IEEE Computer Society Region 8 AI Caravan 2026 · AI Administrator Track</sub>
+</p>
