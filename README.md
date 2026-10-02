@@ -308,7 +308,6 @@ This training initiative is officially supported and organized under the auspice
 This repository and lab material are developed for the **IEEE Computer Society Region 8 AI Caravan 2026** under the **AI Administrator Track**.
 
 * **License:** Open for educational and non-commercial training under the [MIT License](LICENSE).
-* **Citation:** If referencing or using these materials for training, please credit the instructional team and author: **Dr. Abedal-Kareem Al-Banna & IEEE CS Region 8**.
 
 ---
 
