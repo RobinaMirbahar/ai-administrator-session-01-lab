@@ -311,9 +311,10 @@ This repository and lab material are developed for the **IEEE Computer Society R
 
 ---
 
-## 🤝 Questions, Issues & Contributions
+## 🤝 Questions, Community & Contributions
 
-* **Found a typo or have a question?** Feel free to open an [Issue](../../issues) or submit a [Pull Request](../../pulls).
+* **Join the Discussion:** Have a question, want feedback on your task inventory, or want to discuss course topics? Head over to [GitHub Discussions](../../discussions).
+* **Found a typo or issue?** Feel free to open an [Issue](../../issues) or submit a [Pull Request](../../pulls).
 * **Next Session:** **Day 1 · Session 2: Prompting for Operators (Structured Outputs & Assistants)**.
 
 ---
