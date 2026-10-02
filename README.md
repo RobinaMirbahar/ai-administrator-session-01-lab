@@ -269,23 +269,37 @@ Then rank the top three tasks by time saved per week. Be brief.
 </details>
 
 ---
-
-## 👥 Contributors & Instructional Team
-
-### Lead Contributor & Curriculum Author
-* **Dr. Abedal-Kareem Al-Banna**  
-  Assistant Professor, Data Science & AI · Faculty of Information Technology, University of Petra  
-  📧 `abanna@uop.edu.jo` (Ext: 7310)  
-  [![Profile](https://img.shields.io/badge/Profile-Personal_Page-e11d48?style=flat-square&logo=googlechrome&logoColor=white)](https://albanna-tutorials.com/profile.html)
-  [![Email](https://img.shields.io/badge/Email-abanna%40uop.edu.jo-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abanna@uop.edu.jo)
-  [![GitHub](https://img.shields.io/badge/GitHub-@abedbanna-181717?style=flat-square&logo=github)](https://github.com/abedbanna)
-  [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Citations-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=iT-DOPkAAAAJ&hl=en)
-  [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--8598--0948-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-8598-0948)
-  [![IEEE Xplore](https://img.shields.io/badge/IEEE-Xplore-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37089441675)
-  [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/abedbanna)
-  [![CV](https://img.shields.io/badge/Curriculum_Vitae-PDF-555555?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://albanna-tutorials.com/cv/Dr-Abedal-Kareem-Al-Banna-CV.pdf)
-
 ---
+
+## 🏛️ Program Organizers & Partners
+
+This training initiative is officially supported and organized under the auspices of:
+
+<p align="center">
+  <a href="https://www.computer.org/" target="_blank">
+    <img src="https://img.shields.io/badge/IEEE_Computer_Society-computer.org-FFA500?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Computer Society" />
+  </a>
+  <a href="https://www.computer.org/membership/chapters" target="_blank">
+    <img src="https://img.shields.io/badge/IEEE_CS_GAC-Geographic_Activities-222222?style=for-the-badge" alt="IEEE CS GAC" />
+  </a>
+  <a href="https://aicaravan.org" target="_blank">
+    <img src="https://img.shields.io/badge/AI_Caravan-aicaravan.org-E11D48?style=for-the-badge" alt="AI Caravan" />
+  </a>
+  <a href="https://www.computer.org/membership/distinguished-visitors-program" target="_blank">
+    <img src="https://img.shields.io/badge/IEEE_CS-DVP_Program-FFA500?style=for-the-badge" alt="IEEE CS DVP" />
+  </a>
+  <a href="https://ieeer8.org/" target="_blank">
+    <img src="https://img.shields.io/badge/IEEE_Region_8-ieeer8.org-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Region 8" />
+  </a>
+</p>
+
+| Organization / Initiative | Official Verified Link | Purpose & Focus |
+| :--- | :--- | :--- |
+| **IEEE Computer Society** | [computer.org](https://www.computer.org/) | Global premier computing professional organization |
+| **Geographic Activities Committee (GAC)** | [computer.org/membership/chapters](https://www.computer.org/membership/chapters) | Supporting regional chapters and technical programs |
+| **AI Caravan** | [aicaravan.org](https://aicaravan.org) | Flagship AI educational caravan & training series |
+| **Distinguished Visitors Program (DVP)** | [computer.org/dvp](https://www.computer.org/membership/distinguished-visitors-program) | Connecting global technology leaders with chapters |
+| **IEEE Region 8** *(Europe, Middle East & Africa)* | [ieeer8.org](https://ieeer8.org/) | Regional coordination, governance, and hosting |
 
 ---
 
