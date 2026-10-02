@@ -236,9 +236,9 @@ Then rank the top three tasks by time saved per week. Be brief.
   GitHub: [@abedbanna](https://github.com/abedbanna)
 
 ### Course Instructional Team
-* **Prof. Mousa AL-Akhras** (`Mousa.akhras@ju.edu.jo`) — Lead Instructor
+* **Prof. Mousa AL-Akhras**  — Lead Instructor
 * **Mohammed Abdelmajeed** — Lead Instructor
-* **Robina Mirbahar** (`mallah.robina@gmail.com`) — Instructor
+* **Robina Mirbahar**  — Instructor
 * **Dr. Abedal-Kareem Al-Banna** — Instructor & Curriculum Author
 
 ---
