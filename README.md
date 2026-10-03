@@ -1,4 +1,4 @@
-# 🤖 AI Administrator: Agentic Workflows & Automation
+# 🤖 AI Administrator: Agentic Workflows & Automation · Day 1 · Session 1 · Foundations
 ### Module 1: Agents and Automation, Explained · Practical Lab
 
 [![Track](https://img.shields.io/badge/IEEE_CS_Region_8-AI_Caravan_2026-blue?style=for-the-badge&logo=ieee&logoColor=white)](https://aicaravan.org)
