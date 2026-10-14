@@ -440,3 +440,4 @@ This repository and lab material are developed for the **IEEE Computer Society R
   <br><br>
   <sub>© 2026 Instructional Team & Contributors. All rights reserved.</sub>
 </div>
+<!-- lab-verified -->
