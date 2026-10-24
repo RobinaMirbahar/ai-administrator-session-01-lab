@@ -487,3 +487,17 @@ This repository and lab material are developed for the **IEEE Computer Society R
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+---
+
+## Star, Fork & Sponsor This Project
+
+[![Star on GitHub](https://img.shields.io/github/stars/RobinaMirbahar/ai-administrator-session-01-lab?style=for-the-badge&logo=github&label=Star)](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab)
+[![Fork on GitHub](https://img.shields.io/github/forks/RobinaMirbahar/ai-administrator-session-01-lab?style=for-the-badge&logo=github&label=Fork)](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab/fork)
+[![Sponsor RobinaMirbahar](https://img.shields.io/badge/Sponsor-%40RobinaMirbahar-ea4aaa?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/RobinaMirbahar)
+
+If this project is helpful to your work:
+* **Star this Repository:** [**Star `RobinaMirbahar/ai-administrator-session-01-lab` on GitHub**](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab) to bookmark it and help others discover it.
+* **Fork & Customize:** [**Fork `RobinaMirbahar/ai-administrator-session-01-lab`**](https://github.com/RobinaMirbahar/ai-administrator-session-01-lab/fork) to build and experiment with your own workflows.
+* **Sponsor on GitHub:** [**Sponsor `@RobinaMirbahar` on GitHub Sponsors (`github.com/sponsors/RobinaMirbahar`)**](https://github.com/sponsors/RobinaMirbahar) to support open-source AI, Google Cloud, and Gemini engineering projects!
+
