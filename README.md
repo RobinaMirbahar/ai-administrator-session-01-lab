@@ -1,4 +1,23 @@
 # 🤖 AI Administrator: Agentic Workflows & Automation · Day 1 · Session 1 · Foundations
+
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Interactive Lab on Classifying Deterministic Automations vs Autonomous AI Agents, LLM Failure Modes & Enterprise Task Inventories
+
+---
+
+## 🎯 Why I Built IEEE AI Caravan 2026 — Session 01 Lab: AI Agents, Automations & LLM Boundaries (Engineering Purpose & Real-World Value)
+
+### 1. 🧭 Knowing When NOT to Use an Autonomous Agent
+One of the costliest mistakes in enterprise AI is using an unconstrained LLM where a deterministic script belongs—or vice versa. I built Session 01 Lab to give engineers a rigorous decision framework across deterministic automation, single-turn LLM calls, and multi-step agents.
+
+### 2. 🔬 Hands-On Boundary & Hallucination Testing
+Participants run controlled experiments that expose LLM failure boundaries (arithmetic drift, stale cutoff knowledge, schema violations) and fix them with deterministic tool hooks.
+
+### 3. 📋 Production Task Inventory Deliverable
+By the end of the lab, every engineer produces a scored 5-task operational inventory ready for architectural review.
+
+---
+
 ### Module 1: Agents and Automation, Explained · Practical Lab
 
 [![Track](https://img.shields.io/badge/IEEE_CS_Region_8-AI_Caravan_2026-blue?style=for-the-badge&logo=ieee&logoColor=white)](https://aicaravan.org)
@@ -461,3 +480,22 @@ This repository and lab material are developed for the **IEEE Computer Society R
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
