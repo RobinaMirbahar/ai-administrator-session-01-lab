@@ -21,8 +21,8 @@ By the end of the lab, every engineer produces a scored 5-task operational inven
 ### Module 1: Agents and Automation, Explained · Practical Lab
 
 [![Track](https://img.shields.io/badge/IEEE_CS_Region_8-AI_Caravan_2026-blue?style=for-the-badge&logo=ieee&logoColor=white)](https://aicaravan.org)
-[![Skill Level](https://img.shields.io/badge/Level-100%25_No--Code-success?style=for-the-badge)](https://aistudio.google.com/)
-[![Platform](https://img.shields.io/badge/Platform-Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
+[![Skill Level](https://img.shields.io/badge/Level-100%25_No--Code-success?style=for-the-badge)](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)
+[![Platform](https://img.shields.io/badge/Platform-Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)
 
 ---
 
@@ -37,7 +37,7 @@ By the end of the lab, every engineer produces a scored 5-task operational inven
 
 ---
 
-A hands-on, zero-code lab to explore model boundaries, system instructions, tools grounding, and the 10-task inventory deliverable using [Google AI Studio](https://aistudio.google.com/).
+A hands-on, zero-code lab to explore model boundaries, system instructions, tools grounding, and the 10-task inventory deliverable using [Google AI Studio](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco).
 
 ---
 
@@ -59,7 +59,7 @@ A hands-on, zero-code lab to explore model boundaries, system instructions, tool
 
 ## 🎯 Lab Overview
 
-This lab translates the theoretical foundations of **Day 1 · Session 1** into a fast, interactive experience using **Google AI Studio** ([aistudio.google.com](https://aistudio.google.com/)). No credit card, cloud project, or coding required.
+This lab translates the theoretical foundations of **Day 1 · Session 1** into a fast, interactive experience using **Google AI Studio** ([aistudio.google.com](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)). No credit card, cloud project, or coding required.
 
 ### What an LLM Actually Does: Next-Word Prediction
 A language model does not "think" like a human—it predicts the most likely next word (token) one at a time based on probability.
@@ -121,7 +121,7 @@ Think of assembling an agent like **onboarding a newly hired Executive Assistant
 > *The Real-Life Analogy: The Test Track / Store Fitting Room.*  
 > You don't take a brand-new car directly onto a busy highway without testing the steering and brakes on a closed track first. Google AI Studio is our zero-risk, no-code rehearsal room.
 
-1. Navigate to **[https://aistudio.google.com/](https://aistudio.google.com/)**.
+1. Navigate to **[https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)**.
 2. Sign in with your standard Google account.
 3. In the left menu, click **Create new prompt** → **Chat prompt**.
 
