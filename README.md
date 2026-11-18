@@ -1,7 +1,9 @@
 # 🤖 AI Administrator: Agentic Workflows & Automation · Day 1 · Session 1 · Foundations
 
+> **IEEE Computer Society Region 8 AI Caravan 2026 — Session 01 Hands-On Lab**  
 > **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
-> **Focus:** Interactive Lab on Classifying Deterministic Automations vs Autonomous AI Agents, LLM Failure Modes & Enterprise Task Inventories
+> 📚 **Companion Curriculum:** [IEEE CS Region 8 AI Caravan 2026 (i-administrator-caravan-2026)](https://github.com/RobinaMirbahar/ai-administrator-caravan-2026) · [Interactive Lab Portal](https://robinamirbahar.github.io/ai-administrator-session-01-lab/)  
+> **Core Stack:** [Google Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), Deterministic Automation vs. Autonomous Agent Classification, LLM Failure-Mode Auditing, and Enterprise Task Inventories.
 
 ---
 
