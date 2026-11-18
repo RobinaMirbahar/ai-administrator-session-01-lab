@@ -230,15 +230,6 @@ flowchart TD
     E --> F["👀 5. OBSERVE: Live ticker (Updated 2 mins ago)"]
     F --> G["💬 6. ANSWER: Deliver verified live rate with citations"]
     D -- "✅ Current" --> G
-    style A fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style B fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style D fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Outdated fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style E fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style F fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style ticker fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style G fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
 ```
 
 #### 📝 Step-by-Step ReAct Trace
